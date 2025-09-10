@@ -1,0 +1,111 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f4f4f9;
+  color: #333;
+  transition: background 0.3s, color 0.3s;
+}
+
+header {
+  background: #043f7a;
+  color: white;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  /* spreads items evenly */
+  align-items: center;
+  background: #333;
+  padding: 10px 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+nav a,
+nav button {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  font-size: 14px;
+  border: 2px solid white;
+  /* border for each button */
+  transition: 0.3s;
+  background: transparent;
+  /* keeps links transparent */
+}
+
+/* Hover effect */
+nav a:hover,
+nav button:hover {
+  background: #444;
+  /* background on hover */
+  color: #00aaff;
+  border-color: #00aaff;
+  /* border changes on hover */
+}
+
+/* Special styling for dark mode button */
+nav button {
+  cursor: pointer;
+  background: #043f7a;
+  border-color: #043f7a;
+  /* blue border */
+}
+
+nav button:hover {
+  background: #0656a0;
+  border-color: #0656a0;
+}
+
+
+/* Sections */
+section {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: background 0.3s, color 0.3s;
+}
+
+h2 {
+  color: #043f7a;
+}
+
+.project {
+  margin-bottom: 15px;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+footer {
+  text-align: center;
+  background: #333;
+  color: white;
+  padding: 15px 0;
+  margin-top: 30px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #1e1e1e;
+  color: #f4f4f9;
+}
+
+.dark-mode section {
+  background: #2c2c2c;
+}
+
+.dark-mode nav {
+  background: #111;
+  /9
+}s
